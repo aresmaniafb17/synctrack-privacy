@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SyncTrack Solutions – Privacy Policy & Platform Overview</title>
+    <style>
+        :root {
+            --primary: #0f172a;
+            --accent: #2563eb;
+            --text: #334155;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 2.5rem 1rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        header p {
+            margin-top: 0.5rem;
+            opacity: 0.8;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+        .app-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+        .card {
+            background: var(--card-bg);
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            border-top: 4px solid var(--accent);
+        }
+        .card h3 {
+            margin-top: 0;
+            color: var(--primary);
+            font-size: 1.2rem;
+        }
+        .policy-section {
+            background: var(--card-bg);
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .lang-toggle {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 0.5rem;
+        }
+        .lang-btn {
+            background: none;
+            border: none;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            color: var(--accent);
+            padding: 0.5rem 1rem;
+        }
+        .lang-btn.active {
+            background-color: var(--accent);
+            color: white;
+            border-radius: 4px;
+        }
+        ul {
+            padding-left: 1.2rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SyncTrack Industrial & Maritime SaaS</h1>
+    <p>Official Privacy Policy & Enterprise Platform Overview</p>
+</header>
+
+<div class="container">
+    <!-- Applications Overview -->
+    <div class="app-cards">
+        <div class="card">
+            <h3>SyncTrack Visitor Management System</h3>
+            <p>Multi-platform real-time visitor access control, Persons On Board (POB) roster tracking, and automated reporting designed for vessels and industrial sites.</p>
+        </div>
+        <div class="card">
+            <h3>SyncTrack Permit to Work Monitoring</h3>
+            <p>Safety-critical Permit to Work execution, lockout/tagout (LOTO) isolation workflows, and high-frequency Web Audio alerts across multi-terminal setups.</p>
+        </div>
+    </div>
+
+    <!-- Privacy Policy Content -->
+    <div class="policy-section">
+        <div class="lang-toggle">
+            <button class="lang-btn active" onclick="showLang('en')">English</button>
+            <button class="lang-btn" onclick="showLang('tr')">Türkçe</button>
+        </div>
+
+        <!-- ENGLISH SECTION -->
+        <div id="lang-en">
+            <h2>Privacy Policy</h2>
+            <p><strong>Effective Date:</strong> October 12, 2026</p>
+            <p><strong>Applications Covered:</strong> SyncTrack Visitor Management System & SyncTrack Permit to Work Monitoring</p>
+
+            <h3>1. Introduction</h3>
+            <p>SyncTrack Visitor Management System and SyncTrack Permit to Work Monitoring ("we," "our," or "us") are committed to protecting user privacy. This Privacy Policy explains how our B2B SaaS applications handle data across mobile and web interfaces.</p>
+
+            <h3>2. Information We Collect</h3>
+            <ul>
+                <li><strong>Account & Subscription Data:</strong> Google Play billing tokens and order IDs used exclusively to provision your dedicated secure <code>tenant_id</code>.</li>
+                <li><strong>Device Metadata:</strong> Terminal station names and 4-digit PINs used to authenticate up to 6 devices per tenant fleet.</li>
+                <li><strong>Operational Data:</strong> Visitor logs, POB roster counts, permits, and isolation records.</li>
+            </ul>
+
+            <h3>3. How We Use Data</h3>
+            <p>Data is strictly scoped by <code>tenant_id</code> for multi-tenant isolation, real-time WebSocket synchronization across terminals, and offline maritime licensing validation.</p>
+
+            <h3>4. Data Sharing & Security</h3>
+            <p>We do not sell or rent data. Data is processed securely via Google Play Billing services and encrypted cloud endpoints. All records are isolated per organization.</p>
+
+            <h3>5. Contact</h3>
+            <p>For questions regarding this policy, contact us at: <strong>aresmaniafb@gmail.com</strong></p>
+        </div>
+
+        <!-- TURKISH SECTION -->
+        <div id="lang-tr" style="display: none;">
+            <h2>Gizlilik Politikası</h2>
+            <p><strong>Yürürlük Tarihi:</strong> 12 Ekim 2026</p>
+            <p><strong>Kapsanan Uygulamalar:</strong> SyncTrack Visitor Management System & SyncTrack Permit to Work Monitoring</p>
+
+            <h3>1. Giriş</h3>
+            <p>SyncTrack Visitor Management System ve SyncTrack Permit to Work Monitoring olarak kullanıcılarımızın veri gizliliğine önem veriyoruz. Bu Gizlilik Politikası, B2B SaaS uygulamalarımızın verileri nasıl işlediğini açıklar.</p>
+
+            <h3>2. Toplanan Bilgiler</h3>
+            <ul>
+                <li><strong>Abonelik Bilgileri:</strong> Kurumunuza özel <code>tenant_id</code> oluşturmak için kullanılan Google Play sipariş numaraları.</li>
+                <li><strong>Cihaz Bilgileri:</strong> 6 cihazlık filo ağınızdaki ikincil terminalleri doğrulamak için kullanılan istasyon adları ve PIN kodları.</li>
+                <li><strong>Operasyonel Kayıtlar:</strong> Ziyaretçi logları, POB sayıları, çalışma izinleri ve izolasyon kayıtları.</li>
+            </ul>
+
+            <h3>3. Verilerin Kullanımı</h3>
+            <p>Veriler yalnızca <code>tenant_id</code> izolasyonu sağlamak, terminaller arası canlı WebSocket senkronizasyonu yürütmek ve çevrimdışı lisans kontrolü yapmak amacıyla kullanılır.</p>
+
+            <h3>4. Veri Güvenliği</h3>
+            <p>Verileriniz üçüncü taraflara satılmaz. Tüm veriler kurumunuza özel izole veritabanı alanlarında şifreli olarak saklanır.</p>
+
+            <h3>5. İletişim</h3>
+            <p>Sorularınız için bizimle iletişime geçebilirsiniz: <strong>aresmaniafb@gmail.com</strong></p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    &copy; 2026 SyncTrack Solutions – All rights reserved.
+</footer>
+
+<script>
+    function showLang(lang) {
+        document.getElementById('lang-en').style.display = lang === 'en' ? 'block' : 'none';
+        document.getElementById('lang-tr').style.display = lang === 'tr' ? 'block' : 'none';
+        
+        const btns = document.querySelectorAll('.lang-btn');
+        btns[0].classList.toggle('active', lang === 'en');
+        btns[1].classList.toggle('active', lang === 'tr');
+    }
+</script>
+
+</body>
+</html>
